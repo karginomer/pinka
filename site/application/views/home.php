@@ -26,45 +26,45 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="<?php echo base_url("resources/"); ?>img/carousel-1.jpg" alt="">
+                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider.jpg" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For You</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id a nostrum at quisquam culpa libero odio qui ab nesciunt aliquam officiis nihil ex facere deleniti, aliquid non eius autem quae. </p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="<?php echo base_url("resources/"); ?>img/carousel-2.jpg" alt="">
+                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider2.jpg" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All Business</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eum inventore vitae totam iste. Illo cupiditate voluptate quam molestias distinctio ratione. Voluptates recusandae beatae atque vel odio. Iusto, neque libero!</p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="<?php echo base_url("resources/"); ?>img/carousel-3.jpg" alt="">
+                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider3.jpg" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security System</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam et tenetur cumque molestiae nam ullam perferendis ab nostrum dignissimos, similique doloribus veritatis assumenda dolores cum amet saepe. Voluptatem, similique culpa!</p>
+                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
                             </div>
                         </div>
                     </div>
