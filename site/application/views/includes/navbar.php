@@ -8,7 +8,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                <a href="<?php echo base_url(); ?>" class="nav-item nav-link active">Anasayfa</a>
                 <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
                 <a href="service.html" class="nav-item nav-link">Servisler</a>
                 <a href="project.html" class="nav-item nav-link">Projeler</a>
@@ -23,6 +23,7 @@
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                <a href="" class="btn btn-outline-dark btn-sm h-50 mt-2 mb-1 rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Giriş Yap</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>

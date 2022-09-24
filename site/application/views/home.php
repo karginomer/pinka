@@ -20,19 +20,21 @@
     <?php $this->load->view('includes/topbar') ?>
     <?php $this->load->view('includes/navbar') ?>
     
+    <?php $slides=getSlider(); ?>
 
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
+            <?php foreach($slides as $slide) { ?>
             <div class="owl-carousel-item position-relative">
-                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider.jpg" alt="">
+                <img class="img-resp" src="<?php echo "http://localhost/pinka/sitePanel/uploads/slides_v/1920x1080/$slide->image";?>" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id a nostrum at quisquam culpa libero odio qui ab nesciunt aliquam officiis nihil ex facere deleniti, aliquid non eius autem quae. </p>
+                                <h1 class="display-3 text-white animated slideInDown mb-4"><?= $slide->slide; ?></h1>
+                                <p class="fs-5 text-white mb-4 pb-2"><?= $slide->description; ?></p>
                                 <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
                                 <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
                             </div>
@@ -40,36 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider2.jpg" alt="">
-                <div class="carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eum inventore vitae totam iste. Illo cupiditate voluptate quam molestias distinctio ratione. Voluptates recusandae beatae atque vel odio. Iusto, neque libero!</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-resp" src="<?php echo base_url("resources/"); ?>img/slider3.jpg" alt="">
-                <div class="carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam et tenetur cumque molestiae nam ullam perferendis ab nostrum dignissimos, similique doloribus veritatis assumenda dolores cum amet saepe. Voluptatem, similique culpa!</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Daha Fazla...</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Ücretsiz Dene</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
     <!-- Carousel End -->
