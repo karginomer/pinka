@@ -33,22 +33,20 @@
                                             <input type="color" name="color" id="color" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <label for="start" class="col-sm-12 control-label">Başlangıç Tarihi</label>
-                                                <div class="col-sm-12">
-                                                    <input type="text" name="start_date" class="form-control" id="start" readonly>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="end" class="col-sm-12 control-label">Bitiş Tarihi</label>
-                                                <div class="col-sm-12">
-                                                    <input type="text" name="end_date" class="form-control" id="end" readonly>
-                                                </div>
-                                            </div>
+                                    <div class="form-group">
+                                        <label for="start" class="col-sm-2 text-center control-label">Başlangıç Tarihi</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="start_date" class="form-control" id="start" readonly>
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="end" class="col-sm-2 text-center control-label">Bitiş Tarihi</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="end_date" class="form-control" id="end" readonly>
+                                        </div>
+                                    </div>
+                                    
+                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>

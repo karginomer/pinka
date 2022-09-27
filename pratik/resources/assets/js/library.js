@@ -79,9 +79,9 @@ var LIBS = {
 		"../libs/bower/counterup/jquery.counterup.min.js"
 	],
 	others: [
-		"../libs/bower/switchery/dist/switchery.min.css",
-		"../libs/bower/switchery/dist/switchery.min.js",
-		"../libs/bower/lightbox2/dist/css/lightbox.min.css",
-		"../libs/bower/lightbox2/dist/js/lightbox.min.js"
+		"resources/libs/bower/switchery/dist/switchery.min.css",
+		"resources/libs/bower/switchery/dist/switchery.min.js",
+		"resources/libs/bower/lightbox2/dist/css/lightbox.min.css",
+		"resources/libs/bower/lightbox2/dist/js/lightbox.min.js"
 	]
 };
