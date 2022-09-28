@@ -11,6 +11,10 @@
 	<script src="<?php echo base_url("resources/");?>assets/js/library.js"></script>
 	<script src="<?php echo base_url("resources/");?>assets/js/plugins.js"></script>
 	<script src="<?php echo base_url("resources/");?>assets/js/app.js"></script>
+	<script src="<?php echo base_url("resources/");?>assets/js/vfs_fonts.js"></script>
+	<script src="<?php echo base_url("resources/");?>assets/js/pdfmake.min.js"></script>
+	<script src="<?php echo base_url("resources/");?>assets/js/datatables.min.js"></script>
+	<script src="<?php echo base_url("resources/");?>assets/js/summernote.min.js"></script>
 	<!-- endbuild -->
 	<script src="<?php echo base_url("resources/");?>libs/bower/moment/moment.js"></script>
 	<script src="<?php echo base_url("resources/");?>libs/bower/fullcalendar/dist/fullcalendar.min.js"></script>

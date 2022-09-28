@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="<?php echo base_url("resources");?>/assets/css/solid.css">
 	<link rel="stylesheet" href="<?php echo base_url("resources");?>/assets/css/v5-font-face.css">
 	<link rel="stylesheet" href="<?php echo base_url("resources");?>/assets/css/switchery.min.css">
+	<link rel="stylesheet" href="<?php echo base_url("resources");?>/assets/css/datatables.min.css">
+	<link rel="stylesheet" href="<?php echo base_url("resources");?>/assets/css/summernote.min.css">
 	<!-- endbuild -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300">
 	<script src="<?php echo base_url("resources");?>/libs/bower/breakpoints.js/dist/breakpoints.min.js"></script>

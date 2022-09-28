@@ -31,7 +31,7 @@
           </a>
         </li>
         <li>
-          <h5 class="page-title hidden-menubar-top hidden-float">Girilen Sayfanın Adı</h5>
+          <h5 class="page-title hidden-menubar-top hidden-float"><?= $breadCrumb; ?></h5>
         </li>
       </ul>
 

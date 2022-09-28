@@ -54,7 +54,7 @@
         </li>
         
         <li class="has-submenu">
-          <a href="<?php echo "https://www.google.com/" ?>">
+          <a href="<?php echo base_url("personel");?>">
             <i class="menu-icon fa-solid fa-user"></i>
             <span class="menu-text">Personel</span>
           </a>

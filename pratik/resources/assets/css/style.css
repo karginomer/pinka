@@ -30,24 +30,24 @@
 
 .big-card {
     max-height: 520px !important;
-    overflow-x: hidden;
+    overflow: hidden;
     min-height: 510px !important;
 }
 
 .card-400 {
     max-height: 400px !important;
     height: 300px !important;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .med-card {
     max-height: 250px !important;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .x-med-card {
     max-height: 160px !important;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .card-hover:hover {

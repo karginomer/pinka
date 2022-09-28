@@ -23,7 +23,7 @@
 <main id="app-main" class="app-main">
   	<div class="wrap">
 		<section class="app-content">
-			<?php $this->load->view("{$viewFolder}/content");?>
+			<?php $this->load->view("{$viewFolder}/{$subViewFolder}/content");?>
 		</section><!-- #dash-content -->
 	</div><!-- .wrap -->
   <!-- APP FOOTER -->
@@ -31,7 +31,8 @@
   <!-- /#app-footer -->
 </main>
 <!--========== END app main -->
-	<?php $this->load->view('includes/include_script');?>
+<?php $this->load->view('includes/include_script');?>
+<?php $this->load->view("{$viewFolder}/{$subViewFolder}/page_scripts");?>
 	
 </body>
 </html>

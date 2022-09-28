@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row my-3">
     <div class="col-md-12">
         <div class="portlet light bordered">
             <div class="portlet-body">
